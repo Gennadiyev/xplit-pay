@@ -1,0 +1,113 @@
+@xplit 0.0.3
+@title Osaka & Tokyo, 2024.06
+@author Kunologist
+@people
+    L: Lynnex
+    K: Kunologist
+@currencies
+    C: CNY
+    J: JPY = 0.046
+@payment_methods
+    CASH: 💵现金
+    DEBIT: 💳借记卡/信用卡
+    WECHAT: 💭微信
+@description
+    这一次，我们要夺回属于我们的一切！
+@extra_payments
+    L -> K: J29000
+    L -> K: C10000
+
+@ 出行前准备
+"往返机票" "✈ 哦哦 机票" - K:WECHAT C7552 s(K)0.5
+"USJ 门票 EXP 4" "USJ *堵门事件已包含在内*" - K:WECHAT C3882 s(K)0.5
+"大阪的酒店" "🏨 WELLSTAY Shinsekai Wakyo" - K:DEBIT C3736 s(K)0.5
+"大别墅！" "🏨 匯家·平和島ビル" - K:DEBIT C4243 s(K)0.5
+
+@ 0601 抵达！我们又来啦 日本——
+"TAXI 去酒店" "因为狗屁咕噜咕噜📌乱导航所以两人决定打车！" - K:CASH J1200 s(K)0.5
+"松屋" "Day 1 的街头夜宵" 2517 L:WECHAT J1380 s(K)J790
+"LAWSON" "哈哈" 2457 L:WECHAT J1653 s(K)0.5
+"FamilyMart" "嘻嘻" 2514 L:WECHAT J614 s(K)0.5
+"SIM 卡订单" "📱 [Calender World SIM](https://www.jpsimshop.com/view/item/000000000109)" - K:DEBIT J13200 s(K)0.5
+
+@ 0602 附近的兜兜
+"PAUL & JOE 天王寺" "一下就选到爆闪底妆 下次不许底妆加闪粉了哦" 1846 L:WECHAT J3850 s(L)1
+"PLAZA" "我是仓鼠 我要多买化妆品" 1826 L:WECHAT J26224 s(L)1
+"纪伊国屋书店" "哦吼 很大的书店 但是买的全是二次元" 1735 L:WECHAT J6782 s(K)J3930
+"PARTS CLUB" "我做耳环？真的假的！" 1742 L:WECHAT J10120 s(K)J2000
+"眼药水" "学会使用眼药水之人工泪液" 1855 L:WECHAT J1152 s(K)J498
+"Starbucks" "HOOP 的香蕉杏仁牛奶与柚子茶" 1947 L:WECHAT J1230 s(K)0.5
+"K'ntetsu" "🍓！" 1937 L:WECHAT J834 s(K)0.5
+"柚子创意料理" "Yuzu！真的很好吃！就是下次推荐菜一定要让樱来写！" 2234 K:CASH J7000 s(K)0.5
+"串家物语" "好多串串 但是统统炸了！你海老还是你海老.gif" 1704 K:CASH J4620 s(K)0.5
+"FamilyMart" "鲑鱼 Onigiri 和饮料" 1524 L:WECHAT J498 s(K)0.5
+
+@ 0603 USJ 大半日游
+"①" "入场料（bushi）头箍！" 1617 K:CASH J5600 s(K)J2700
+"②" "鲨鱼味食物" 1757 K:CASH J5950 s(K)J3550
+"③" "Mario KART 后" 2110 K:CASH J22840 s(K)J5600
+"④" "走之前" 2159 K:CASH J8500 s(K)0
+"Universal-City 站" "SUICA 充值解决" 2200 K:CASH J3000 s(L)1
+
+@ 0604 在难波 WALK 和心斋桥逛了逛——
+"Baskin & Robbins" "🍦 先新品再薄巧……等下 再什么？" 1721 L:WECHAT J1200 s(K)0.5
+"3COINS" "300 円一个耳环 但是一人选一个 统统三百铃！" 1710 L:WECHAT J660 s(L)1
+"橡子共和国" "我带护照？真的假的？" 1659 L:WECHAT J5775 s(K)J2050
+"TSUTAYA" "我不厨 NMB48，但是啤酒烧烤是一款实体卡片" 2124 L:WECHAT J600 s(K)1
+"某个药妆杂货店" "牙刷是用来刷牙的 不是用来刷鞋的 也不是用来染发的" 1842  L:WECHAT J1024 s(K)J373
+"豚匠" "建议全世界都来试试樱的安利 当然只有鲲知道更好（bu" 2044 K:CASH J12260 s(K)0.5
+
+@ 0605 二刷难波 WALK 后到酒店附近逛逛——
+"大起水产" "🍣 寿司拼盘一份 米饭好吃但是鱼一般……" 2006 K:CASH J842 s(K)1
+"@cosme STORE" "这次带上护照买化妆品了！" 1928 L:WECHAT J13980 s(L)1
+"去东京的 Shinkansen" "🚄 铁胆火车侠！" - K:DEBIT J11620 s(K)0.5
+"鹤桥风月" "樱又一次推荐了特别特别好的大阪烧！耶——不愧是樱！眼光真的超好ww" K:DEBIT J3590 s(K)0.5
+"KFC" "我虾呢？" L:WECHAT J2730 s(L)J950
+"LAWSON" "咖啡糖、梅片和葡萄茶" 1947 L:WECHAT J546 s(K)0.5
+"另一家药妆店" "驱蚊液 伤筋膏" 1858 L:WECHAT J4495 s(L)J1287
+"星星糖" "和其他童年回忆！" 2032 L:WECHAT J2092 s(K)0.5
+
+@ 0606 去了大阪站附近的许多商场！
+"Nintendo Osaka" "任！天堂！" 1851 L:WECHAT J20174 s(K)J4500
+"7-Eleven" "抹茶拿铁" 1910 L:WECHAT J179 s(K)1
+"阪急百货店" "2000 紧急插播 BB 橘子面霜和 NARS" 1942 L:WECHAT J13699 s(L)1
+"石庵" "烤石头啦" 2213 K:CASH J10054 s(K)0.5
+"mofumofu store" "好多好多猫猫 还有颜色很丑的扭蛋眼影" 1822 L:WECHAT J6983 s(K)J1738.5
+
+@ 0607 跋涉从大阪到东京，然后在平和岛住下……
+"ESTACIÓN CAFÉ time" "乘坐新干线前的一杯齁甜好吃西餐厅" 1205 K:CASH J3740 s(K)0.5
+"去东京的 Shinkansen Pt.2" "🚄 忘记购买基本票券了呜呜" - K:CASH J17160 s(K)0.5
+"LAWSON" "囤货的一部分（指杯面和喝的）" 2104 L:WECHAT J1165 s(K)0.5
+"日高屋" "🍜 超划算拉面 但是有点小咸" 1758 K:CASH J2065 s(K)J1100
+
+@ 0608 SEKAI SYMPHONY
+"SEKAI SYMPHONY" "🎻 啤酒烧烤配……交响乐！" - K:DEBIT J35980 s(K)0.75
+"Saint-Germain" "SEKAI SYMPHONY 后的 ~~饥不择食~~ 🍞环节 ~~所以 now gold 到底是怎么回事啦！~~" 1709 K:CASH J928 s(K)0.5
+"Baskin & Robbins" "🍦 夺回（下）在 M 记旁边的 BR！" 1923 L:WECHAT J570 s(K)0.5 
+"oeuf" "鲲最喜欢的两种奶昔给樱包圆了ww" 1946 L:WECHAT J890 s(K)0.5
+"イトーヨーカドー" "大商场里的很大超市！刺身梅酒牛乳蜜柑苹果汁统统拿下！" 2047 L:WECHAT J3640 s(K)0.5
+"Loft" "樱购入了一些化妆品！鲲选择了一些贺卡和杂物" 1847 L:WECHAT J11247 s(K)J1892
+
+@ 0609 在涩谷——
+"ROJITA（涩谷 109 店）" "*地雷女的第一站* KURA 人太多导致的" 1845 L:WECHAT J41630 s(L)1
+"Amavel（涩谷 109 店）" "*地雷女的第二站* 🍠转场！但是新品报看" 1857 L:WECHAT J23450 s(L)1
+"Ank Rouge（涩谷 109 店）" "*地雷女的第三站* 不免税 坏 但是地雷系 好" 1915 L:WECHAT J11000 s(L)1
+"Honey Cinnamon（涩谷 109 店）" "*地雷女的第四站* 有翻译APP 把人送到门口 检查衣服质量 鲲和樱听了都说好" 1928 L:WECHAT J21637 s(L)1
+"SAMANTHA VEGA（涩谷 109 店）" "买了一个kira好看的包包！" 1951 L:WECHAT J23500 s(L)1
+"京急百货 平和岛店" "地铁站边上规矩很多的超市里准备了在住处制作的晚餐" 2054 L:WECHAT J4170 s(K)0.5
+"まいばすけっと" "给晚餐准备了额外的食材" 2105 L:WECHAT J1301 s(K)0.5
+"🐔やきとり" "夜间折扣的烧鸟串串 还不错！" 2057 K:CASH J1300 s(K)0.5
+
+@ 0610 在山崎——
+"BIC CAMERA" "BIG BIG BIG BIG CAMERA 但是不卖 CAMERA - 拍立得相纸" 1925 L:WECHAT J1628 s(L)1
+"BIC CAMERA" "BIG BIG BIG BIG 电视机 - 两个音源" 1943 K:WECHAT J23198 s(K)1
+"BOOK 1st." "LDK 杂志两本" 1820 L:WECHAT J1740 s(L)1
+"まいばすけっと" "晚餐食材二周目 大型纪录片之“买最贵的”！" 2257 L:WECHAT J6178 s(K)0.5
+"KURA" "🍣 就你小子在涩谷要排队？" 1804 L:WECHAT J5120 s(K)0.5
+
+@ 0611 挥别大田 下次还来——！
+"まいばすけっと" "挥别平和岛的菠菜汁" 1436 K:WECHAT J644 s(L)0
+"TIAT" "伊藤园抹茶🍨" 1557 K:CASH J1400 s(K)0.7 
+"TIAT" "终于拿下了 E 大大饼！" 1652 L:WECHAT J40000 s(L)1
+"TIAT" "零食和《日本特产》" 1648 L:WECHAT J7260 s(K)J2050
+"マツモトキヨシ" "在羽田空港店购入了一些药品 但是感觉被中国店员骗了……" 1810 L:WECHAT J18713 s(K)J5845

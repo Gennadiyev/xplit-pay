@@ -1,0 +1,1 @@
+requests>=2.6.0 # Where the package fixes CVE-2015-2296. As for the time being, v3.0.0 does not make breaking changes to the functions used in sjtu-questionnaire.

@@ -1,0 +1,50 @@
+[project]
+name = "xplitpay"
+version = "0.0.3"
+authors = [
+  { name="Kunologist", email="kunologist@foxmail.com" },
+]
+description = "Streamline multi-person trip expense management with exchange rate support and rich Markdown export."
+readme = "readme.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Gennadiyev/xplitpay"
+"Bug Tracker" = "https://github.com/Gennadiyev/xplitpay/issues"
+
+[tool.poetry]
+name = "xplitpay"
+version = "0.0.3"
+description = "Streamline multi-person trip expense management with exchange rate support and rich Markdown export!"
+authors = ["Kunologist <kunologist@foxmail.com>"]
+maintainers = ["Kunologist <kunologist@foxmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/Gennadiyev/xplitpay"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+]
+packages = [ { include = "xplitpay", from = "." } ]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/Gennadiyev/xplitpay/issues"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
