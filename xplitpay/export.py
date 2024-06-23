@@ -34,7 +34,6 @@ def compute_stats(xplit_log: XplitLog) -> dict:
 
 
 def _generate_markdown_zh_cn(xplit_log: XplitLog, md_path: str, stats: dict):
-
     md_file = MdUtils(file_name=md_path)
 
     # Add Title
@@ -118,16 +117,13 @@ def _generate_markdown_zh_cn(xplit_log: XplitLog, md_path: str, stats: dict):
     md_file.new_header(level=2, title="开发者相关")
     md_file.new_paragraph(f"XplitPay 版本：`{XPLIT_VERSION}`")
     md_file.new_paragraph(f"生成时间：`{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}`")
-    md_file.new_paragraph(
-        f"源数据：\n\n```plaintext\n{xplit_log.original_content}\n```"
-    )
+    md_file.new_paragraph(f"源数据：\n\n```plaintext\n{xplit_log.original_content}\n```")
 
     # Save the markdown file
     md_file.create_md_file()
 
 
 def _generate_markdown_en(xplit_log: XplitLog, md_path: str, stats: dict):
-
     md_file = MdUtils(file_name=md_path)
 
     # Add Title
@@ -210,17 +206,16 @@ def _generate_markdown_en(xplit_log: XplitLog, md_path: str, stats: dict):
     # Developer Information
     md_file.new_header(level=2, title="Developer Info")
     md_file.new_paragraph(f"XplitPay v`{XPLIT_VERSION}`")
-    md_file.new_paragraph(f"Generated at `{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}`")
     md_file.new_paragraph(
-        f"Source:\n\n```plaintext\n{xplit_log.original_content}\n```"
+        f"Generated at `{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}`"
     )
+    md_file.new_paragraph(f"Source:\n\n```plaintext\n{xplit_log.original_content}\n```")
 
     # Save the markdown file
     md_file.create_md_file()
 
 
 def generate_markdown(xplit_log: XplitLog, md_path: str, locale: str = "zh_CN"):
-
     stats = compute_stats(xplit_log)
 
     if locale == "zh_CN":
